@@ -38,5 +38,7 @@ public class Test1 {
         CartPage cartPage = new CartPage();
         Assert.assertEquals(cartPage.ActualPrice(),cartPage.expectedPrice());
         cartPage.ClickPlaceOrderButton();
+
+        System.out.println("Black");
     }
 }
